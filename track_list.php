@@ -1,5 +1,6 @@
 <?php
-$trcklst = [
+function getTrackList():array {
+    return[
     'aut1'=>["Austrian Grand Prix", "Red Bull Ring"],
     'aut2'=>["Styrian Grand Prix", "Red Bull Ring"],
     'hung'=>["Hungarian Grand Prix", "Hungaroring"],
@@ -17,7 +18,8 @@ $trcklst = [
     'bah'=>["Bahrain Grand Prix", "Bahrain International Circuit – Grand Prix"],
     'bah2'=>["Sakhir Grand Prix", "Bahrain International Circuit – Outer"],
     'uae'=>["Abu Dhabi Grand Prix", "Yas Marina"],
-];
+    ];
+}
 
 
 ?>
